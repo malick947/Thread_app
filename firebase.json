@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "the-red-thread-2",
+          "appId": "1:153671556393:android:2f8da1ee8dde310eaf6b38",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "the-red-thread-2",
+          "configurations": {
+            "android": "1:153671556393:android:2f8da1ee8dde310eaf6b38",
+            "ios": "1:153671556393:ios:8957596d1ba3d908af6b38",
+            "web": "1:153671556393:web:95cfd5466537462eaf6b38"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}

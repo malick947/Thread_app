@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "153671556393",
+    "project_id": "the-red-thread-2",
+    "storage_bucket": "the-red-thread-2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153671556393:android:2f8da1ee8dde310eaf6b38",
+        "android_client_info": {
+          "package_name": "com.example.the_read_thread"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153671556393-eqprb24llfp39cdo5c9kn02ifj22hgn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj2lAtaA0MODv61ulSLTVhOGxrsSMeZvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153671556393-eqprb24llfp39cdo5c9kn02ifj22hgn0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "153671556393-ub574op5ov5d9ph238jrc0tcach3234q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.theReadThread"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
