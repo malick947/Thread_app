@@ -18,35 +18,7 @@ import 'package:the_read_thread/UI/landingScreen.dart';
 
 import 'firebase_options.dart';
 
-void printDebugToken() async {
-  if (kDebugMode) {
-    try {
-      // Force refresh and get the token
-      String? debugToken = await FirebaseAppCheck.instance.getToken(true);
-      
-      if (debugToken != null && debugToken.isNotEmpty) {
-        print('══════════════════════════════════════════════════════════════');
-        print('🔥 APP CHECK DEBUG TOKEN 🔥');
-        print('Token: $debugToken');
-        print('══════════════════════════════════════════════════════════════');
-        
-        // Show in Snackbar or Dialog for easy copying
-        
-      } else {
-        print('No debug token received. Trying again in 2 seconds...');
-        await Future.delayed(Duration(seconds: 2));
-        
-        // Try one more time
-        debugToken = await FirebaseAppCheck.instance.getToken();
-        if (debugToken != null) {
-          print('Debug Token (second try): $debugToken');
-        }
-      }
-    } catch (e) {
-      print('Error getting debug token: $e');
-    }
-  }
-}
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized(); // Ensures binding before Firebase initialization
